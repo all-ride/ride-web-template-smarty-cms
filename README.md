@@ -8,7 +8,7 @@ This module adds Smarty functions and modifiers for the CMS of a Ride applicatio
 
 ### content
 
-Returns the URL of a content object or the full content object when requested in a variable.
+Returns the URL of a content object or the full Content instance when requested in a variable.
 
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -16,7 +16,7 @@ Returns the URL of a content object or the full content object when requested in
 | data | mixed | Actual data or entry, can be an id when using the ORM |
 | locale | string | Code of the locale, if omitted, the current locale is used (optional) |
 | site | string | Id of the site, if omitted, the current site is used (optional) |
-| var | String | Variable name to assign this URL to (optional) |
+| var | String | Variable name to assign the content instance to (optional) |
 
 ```Smarty
 {content type="News" data=$newsEntry var="newsContent"}
