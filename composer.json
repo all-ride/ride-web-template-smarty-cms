@@ -1,0 +1,18 @@
+{
+    "name": "ride/web-template-smarty-cms",
+    "description": "Smarty template integration for the CMS of the Ride framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joris Vandeweerd",
+            "email": "joris@statik.be"
+        }
+    ],
+    "require": {
+        "ride/app": "^1.0.0",
+        "ride/app-template": "^1.0.0",
+        "ride/app-template-smarty": "^1.0.0",
+        "ride/lib-cms": "^1.0.0",
+        "ride/web-cms": "^1.0.0"
+    }
+}
